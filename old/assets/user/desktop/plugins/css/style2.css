@@ -1,0 +1,1053 @@
+.innerpages .kopa-breadcrumb {padding: 40px 0;}
+.travel_design {position: relative !important;}
+.kopa-breadcrumb {padding: 0;background: #f9f9f9;border-top: 1px solid #ebebeb;border-bottom: 1px solid #f3f3f3;box-shadow: inset 0 2px 2px -2px #d7d7d7;font-family: "Raleway", sans-serif;font-size: 14px;line-height: 22px;
+color: #fff;text-transform: capitalize;font-weight: 300;word-wrap: break-word; background-size: cover;
+background-attachment: fixed;position: relative;}
+
+.travel_page h1.wiz_travel, .travel_page .wiz_travel span, .ServicesSection .wiz_travel span, .ServicesSection .wiz_travel {
+    color: #009846 !important;
+}
+
+.smart-container {
+    background: #fff;
+    margin: 10px auto;
+    box-shadow: 0 0 20px -1px rgb(0 0 0 / 20%);
+}
+.smart-forms {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    line-height: 1.231;
+    font-weight: 400;
+    font-size: 14px;
+    color: #34495E;
+}
+.smart-forms .form-body {
+    padding: 40px 30px;
+    padding-bottom: 20px;
+}
+.smart-forms, .smart-forms * {
+    box-sizing: border-box;
+}
+.smart-forms .form-body > span {
+    display: block;
+    font-size: 13px;.travel_page h1.wiz_travel, .travel_page .wiz_travel span, .ServicesSection .wiz_travel span, .ServicesSection .wiz_travel {
+    color: #009846 !important;
+}
+
+    margin-bottom: 10px;
+    margin-top: -26px;
+    text-align: right;
+}
+#careersform1 small {text-transform: none;}
+.smart-forms, .smart-forms * {
+    box-sizing: border-box;
+}
+small, .small {
+    font-size: 85%;
+}
+small {
+    font-size: 80%;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+small {
+    font-size: smaller;
+}
+.smart-forms .form-body > span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: -26px;
+    text-align: right;
+}
+.smart-forms .spacer-b30 {
+    margin-bottom: 30px;
+}
+.smart-forms .tagline {
+    height: 0;
+    border-top: 1px solid #D9DDE5;
+    text-align: center;
+}
+.smart-forms .tagline span {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding: 0px 0px;
+    background: #fff;
+    color: #1ABC9C;
+    top: -10px;
+}
+.smart-forms .frm-row {
+    margin: 0 -10px;
+}
+.smart-forms .slider-group:before, .smart-forms .slider-group:after, .smart-forms .frm-row:before, .smart-forms .frm-row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.smart-forms .frm-row .colm12 {
+    width: 100%;
+}
+.smart-forms .frm-row .colm {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    float: left;
+}
+.smart-forms .section {
+    margin-bottom: 22px;
+}
+.smart-forms label, .smart-forms input, .smart-forms button, .smart-forms select, .smart-forms textarea {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #34495E;
+    outline: none;
+}
+.smart-forms .field {
+    display: block;
+    position: relative;
+}
+.smart-forms .gui-input, .smart-forms .gui-textarea {
+    padding: 10px;
+}
+.smart-forms .select, .smart-forms .gui-input, .smart-forms .gui-textarea, .smart-forms .select > select, .smart-forms .select-multiple select {
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    border: 2px solid #BDC3C7;
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    color: #34495E;
+    outline: none;
+    height: 42px;
+    width: 100%;
+    *zoom: 1;
+}
+.smart-forms .radio, .smart-forms .button, .smart-forms .tooltip, .smart-forms .checkbox, .smart-forms .gui-input, .smart-forms .notification, .smart-forms .gui-textarea, .smart-forms .select > select, .smart-forms .select-multiple select, .smart-forms input[type="button"].button, .smart-forms input[type="submit"].button, .smart-forms input[type="search"].gui-input {
+    transition: all .5s ease-in-out;
+    border-radius: 3px;
+    outline: none;
+}
+input[type="text"], input[type="tel"] {
+    font-style: normal;
+}
+.smart-forms .frm-row .colm4 {
+    width: 33.33%;
+}
+.smart-forms .append-icon, .smart-forms .prepend-icon {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+}
+.smart-forms .append-icon > input, .smart-forms .append-icon > textarea {
+    padding-right: 36px;
+    padding-left: 10px;
+}
+.smart-forms .gui-input, .smart-forms .gui-textarea {
+    padding: 10px;
+}
+.smart-forms .append-icon .field-icon {
+    right: 0;
+}
+.smart-forms .append-icon .field-icon, .smart-forms .prepend-icon .field-icon {
+    top: 0;
+    display: none;
+    width: 42px;
+    height: 42px;
+    color: inherit;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    transition: all .5s ease-out;
+    pointer-events: none;
+    z-index: 99;
+}
+.smart-forms .append-icon .field-icon i, .smart-forms .prepend-icon .field-icon i {
+    position: relative;
+    font-size: 14px;
+}
+.smart-forms .field-icon i {
+    color: #A2A6A8;
+    position: relative;
+    top: -5px;
+}
+.npl {
+    padding-left: 0 !important;
+}
+.npr {
+    padding-right: 0 !important;
+}
+.smart-forms .slider-group:after, .smart-forms .frm-row:after {
+    clear: both;
+}
+.smart-forms .slider-group:before, .smart-forms .slider-group:after, .smart-forms .frm-row:before, .smart-forms .frm-row:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.smart-forms .frm-row .colm6 {
+    width: 50%;
+}
+.smart-forms .select {
+    border: 0;
+    z-index: 10;
+}
+.smart-forms .select:before {
+    top: 2px;
+    right: 2px;
+    width: 34px;
+    bottom: 2px;
+    background: #F2F4FA;
+    border-left: 1px solid #d3dae7;
+    border-radius: 0 1px 1px 0;
+}
+.smart-forms .select:before, .smart-forms .select:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    z-index: 15;
+}
+.smart-forms .select > select {
+    display: block;
+    padding: 9px 10px;
+    appearance: none;
+    outline: none;
+    text-indent: .01px;
+    z-index: 10;
+    margin: 0;
+}
+.smart-forms .select .arrow {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    background: #F2F4FA;
+    color: #B5C1C7;
+    pointer-events: none;
+    z-index: 16;
+}
+.smart-forms .select .arrow:before {
+    content: '\25BC';
+    bottom: 4px;
+}
+.smart-forms .select .arrow:after, .smart-forms .select .arrow:before {
+    content: '';
+    position: absolute;
+    font: 12px Consolas, monospace;
+    font-style: normal;
+    pointer-events: none;
+    left: 6px;
+}
+.smart-forms .select:before, .smart-forms .select:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    z-index: 15;
+}
+.smart-forms .spacer-b30 {
+    margin-bottom: 30px;
+}
+.smart-forms .frm-row .colm7 {
+    width: 58.33%;
+}
+.backMe {
+    background-color: #0f9c4e;
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    right: 20px;
+    top: -14px;
+    z-index: 999;
+    cursor: pointer;
+    font-size: 11px;
+}
+.smart-forms .option {
+    position: relative;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.smart-forms .switch, .smart-forms .option, .smart-forms .field-label {
+    font-size: 14px;
+}
+.smart-forms .option > input[type=radio] {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+.smart-forms .checkbox, .smart-forms .radio {
+    position: relative;
+    margin-right: 2px;
+    background: #fff;
+    display: inline-block;
+    border: 3px solid #B5C1C7;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 21px;
+    width: 21px;
+    top: 4px;
+    padding: 0 !important;
+    vertical-align: bottom;
+}
+.smart-forms .frm-row .colm12 {
+    width: 100%;
+}
+.smart-forms .append-icon, .smart-forms .prepend-icon {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+}
+.smart-forms label, .smart-forms input, .smart-forms button, .smart-forms select, .smart-forms textarea {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #34495E;
+    outline: none;
+}
+.smart-forms .gui-textarea {
+    resize: none;
+    line-height: 19px;
+    overflow: auto;
+    max-width: 100%;
+    height: 96px;
+}
+.smart-forms .gui-input, .smart-forms .gui-textarea {
+    padding: 10px;
+}
+.smart-forms .append-icon .field-icon i, .smart-forms .prepend-icon .field-icon i {
+    position: relative;
+    font-size: 14px;
+}
+.smart-forms .form-footer {
+    overflow: hidden;
+    padding: 20px 25px;
+    padding-top: 25px;
+}
+.smart-forms .form-footer .button {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.smart-forms .btn-primary, .smart-forms .btn-primary:hover, .smart-forms .btn-primary:focus, .smart-forms .btn-primary:active {
+    color: #fff;
+    text-shadow: 0 1px rgb(0 0 0 / 8%);
+}
+.smart-forms .btn-primary {
+    background-color: #1abc9c;
+}
+.smart-forms .button {
+    border: 0;
+    height: 42px;
+    color: #243140;
+    line-height: 1;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0 18px;
+    text-align: center;
+    vertical-align: top;
+    background: #bdc3c7;
+    display: inline-block;
+    text-shadow: 0 1px rgb(255 255 255 / 20%);
+}
+.smart-forms .radio {
+    border-radius: 20px;
+}
+.smart-forms .btn-primary {
+    background-color: #1abc9c;
+}
+.smart-forms .btn-primary, .smart-forms .btn-primary:hover, .smart-forms .btn-primary:focus, .smart-forms .btn-primary:active {
+    color: #fff;
+    text-shadow: 0 1px rgb(0 0 0 / 8%);
+}
+.travel-baner-text{margin-left: 30%; }
+.travel-baner-text h1{ color: #ffff; font-size: 50px;letter-spacing: 3px; text-align: left; margin-top: 35%;}
+.travel-baner-text h1 span{color: #ffff; font-size: 35px; text-align: left; letter-spacing: 3px !important;  }
+.travel-baner-text p{ color: #ffff; text-align: left; width: 87%;}
+/* theater */
+.page-title h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #f59c38 !important;
+    margin-top: 48%;
+}
+.page-title.theatrical-productions-banner {
+    color: #f59c38 !important;
+    float: none;
+    font-size: 14px !important;
+    left: 8% !important;
+    line-height: normal !important;
+    position: relative;
+    text-align: center;
+    top: 0 !important;
+    width: 450px !important;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+#main-content section {
+    float: left;
+    width: 100%;
+}
+.theatrical-productions-content {
+    padding: 10px 0 30px 0;
+}
+.kopa-area-3 .wrapper {
+    position: relative;
+    z-index: 5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.theatrical-productions-content .member-item .details {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 14px;
+    padding: 0px 20px 0 0px;
+    letter-spacing: 0.1px;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.readmore {
+    color: #005799 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.viewGal {
+    border: 1px solid #005799;
+    border-radius: 5px;
+    color: #005799 !important;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 5px 10px;
+    position: relative;
+    width: 150px;
+}
+.viewGal:hover {
+    background-color: #005799;
+    color: #fff !important;
+}
+.wizSports {
+    padding: 90px 0 25px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/*body{
+	font-family: 'Roboto', serif !important;
+}*/
+.Sports_title {
+	display: table;
+}
+.Sports_title span {
+	vertical-align: middle;
+	display: table-cell;
+	position: relative;
+}
+.sportsSection .item {
+	background: transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+	display: inherit;
+	margin: 0;
+	padding: 0px;
+	transition: all 1s ease 0s;	
+	width: 100%;
+	font-family: 'Roboto', serif !important;
+}
+.sportsCont {
+	padding-left: 24px;
+	margin-top: 30px;
+}
+.title {
+	background-color: #00579a;
+	color: #fff;
+	padding: 8px 10px;
+	font-size: 18px;
+	width: 271px;
+	height: 60px;
+	font-weight: bold;
+	left: 10px;
+}
+.sportsCont p {
+	color: #333333;
+	font-size: 14px;
+	line-height: normal;
+	margin-top: 20px;
+	position: relative;
+	min-height: 100px;
+}
+.ico::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 7px;
+	left: 0;
+	border-bottom: 2px solid #00579A;
+	width: 100%;
+}
+.sportsCont p::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -25px;
+	width: 95px;
+	height: 10px;
+	background-color: #F05A28;
+	border-left: 22px solid #00579A;
+}
+.readMore {
+	float: right;
+}
+.ico {
+	width: 50px;
+	padding: 4px;
+}
+.readMore a {
+	background-color: #00579A;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 6px 10px;
+	display: block;
+	font-size: 12px;
+	margin-top: 20px;
+}
+/*.title::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 293px;
+	height: 60px;
+	background-image: url(../images/pattern_bg.png);
+	background-size: 293px 60px;
+	background-repeat: no-repeat;
+	z-index: -1;
+}*/
+.patternImg {
+	position: absolute;
+	right: -50px;
+	top: 0;
+	width: 51px;
+}
+.wizSports {
+	padding: 90px 0 25px;
+}
+
+.sectionBg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.sectionBg img{
+	width: 100%;
+}
+.posRelative {
+	position: relative;
+}
+.wizSports .owl-nav {
+	position: absolute;
+	width: 100%;
+	top: 45%;
+}
+
+.sportsSection .owl-nav [class*="owl-"] {
+	background: transparent !important;
+	padding: 0;
+	margin: 0;
+}
+.sportsSection .owl-prev {
+	position: relative;
+	left: -55px;
+}
+.sportsSection .owl-next {
+	position: relative;
+	right: -55px;
+}
+.sports_section{
+	font-family: 'Old Standard TT', serif !important;
+}
+.sports_section {
+	position: absolute;
+	top: 110px;
+	width: 405px;
+	background-color: #000;
+	padding: 13px;
+	font-size: 14px;
+	text-align: justify;
+}
+.sports_section::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -5px;
+	top: 0px;
+	width: 507px;
+	height: 295px;
+	background-image: url(../images/bg_header.html);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: -1;
+}
+.sports_section {
+	position: absolute;
+	top: 190px;
+	width: 405px;
+	background-color: transparent;
+	padding: 13px 13px 13px 21px;
+	font-size: 14px;
+	text-align: justify;
+	z-index: 999;
+	line-height: 1.2;
+}
+.sports_section p {
+	margin-top: 20px;
+}
+.intro2.sports_banner, .sports_banner .image-wrap {
+	height: 560px;
+	background-color: #043884 !important;
+}
+.sports_banner .image-wrap:first-child {
+	margin-left: -55px;
+}
+.sports_banner .image-wrap:first-child {
+	margin-left: -55px;
+	width: 23% !important;
+}
+.image-wrap:nth-child(odd) .upperImage {
+	height: 340px;
+	width: 120%;
+	transform: translateY(0) skewY(20deg);	
+	margin-top: -62px;
+	position: relative;
+	border-bottom: 7px solid #043884 !important;
+	display: block;
+	overflow: hidden;
+	z-index: 99;
+	background-color: #043783;
+}
+.image-wrap:nth-child(2n) .upperImage {
+	height: 350px;
+	width: 120%;
+	transform: translateY(0) skewY(-19deg);	
+	margin-top: -62px;
+	position: relative;
+	border-bottom: 7px solid #043884 !important;
+	display: block;
+	overflow: hidden;
+	z-index: 99;
+	background-color: #043783;
+}
+/*.sports_banner .image-wrap img {
+	width: auto;
+	min-width: 260%;
+	min-height: auto !important;
+	margin-left: 0px !important;
+	-webkit-transform: translateY(0) skewY(-20deg);
+	-ms-transform: translateY(0) skewY(-20deg);
+	transform: translateY(0) skewY(-20deg);
+}*/
+.sports_banner .image-wrap img {	
+	transform: translateY(0) skewY(0deg);
+	margin-left: 0px;
+}
+.sports_banner .image-wrap:nth-child(odd) .upperImage img {
+	margin-left: -70px !important;
+	min-width: 480px !important;
+	min-height: auto !important;
+	transform: translateY(0) skewY(-19deg);
+	bottom: -420px;
+	position: relative;
+	animation-name: Event_example5;
+	animation-duration: 3s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+.sports_banner .image-wrap:nth-child(even) .upperImage img {
+	margin-left: -70px !important;
+	min-width: 530px !important;
+	min-height: auto !important;
+	transform: translateY(0) skewY(19deg);
+	bottom: -420px;
+	position: relative;
+	animation-name: Event_example5;
+	animation-duration: 3s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+.lowerImg {
+	height: 330px;
+	width: 100%;
+	margin-top: -62px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background-color: #043783;
+}
+.sports_banner .image-wrap {
+	display: block !important;
+	border-right: 7px solid transparent;
+}
+.sports_banner .image-wrap {
+	width: 19% !important;
+}
+.sports_banner .image-wrap {
+	transform: skew(-5deg);
+}
+div.image-wrap .lowerImg img {
+	width: 431px !important;
+	min-width: 431px !important;
+	position: relative;
+	top: -350px;
+	animation-name: Event_example4;
+	animation-duration: 3s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.ctaBox {
+	background-color: #f05a28 !important;
+	overflow: hidden;
+	margin-top: 0;
+	position: relative;
+}
+.ctaBox::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 42%;
+	height: 100%;
+	background-color: #00579A;
+	top: 0;
+}
+.ctaBox::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 42%;
+	background-image: url(../../images/pattern_bg.png);
+	height: 65px;
+	width: 53px;
+	top: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ctaHeader p {
+	color: #fff;
+	padding: 17px 0;
+	font-size: 19px;
+	font-weight: 500;
+    margin-bottom: 0px;
+}
+.callOptions {
+	text-align: left;
+	padding: 20px 0 0 40px;
+}
+.callOptions li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.callOptions li a {
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+}
+.callOptions li a .fa {
+	margin-right: 4px;
+	font-size: 20px;
+}
+@-webkit-keyframes Event_example5 {
+    from {bottom: -420px;}
+    to {bottom: 0;}
+}
+@keyframes Event_example5 {
+    from {bottom: -420px;}
+    to {bottom: 0;}
+} 
+
+@-webkit-keyframes Event_example4 {
+    from {top: -350px;}
+    to {top: 0;}
+}
+@keyframes Event_example4 {
+    from {top: -350px;}
+    to {top: 0;}
+} 
+ 
+
+
+
+.cardImgBox {
+  max-height: 163px;
+}  
+/*.gallery img {
+  opacity: 0;
+}*/
+.new_logo {
+  top: 7px;
+  margin-left: 13px;
+}
+.modalWrapper .card__expander .big, .modalWrapper .card__expander a:nth-child(7) {
+  height: 173px !important;
+  width: 590px !important;
+}
+
+.ticker {
+  /*background-color: #005799;*/
+  position: fixed;
+  top: 3px;
+  left: 3px;
+  text-align: center;
+  width: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+/*.ContentBox {
+  color: #fff;
+  padding: 4px 5px;
+  margin-top: 0;
+}*/
+.ContentBox {
+  color: #fff;
+  padding: 41px 31px;
+  margin-top: 0;
+}
+/*.ticker .ContentBox strong {
+  font-size: 25px;
+}*/
+.ticker .ContentBox strong {
+  font-size: 25px;
+  font-weight: 500;
+}
+.ticker .ContentBox strong small {
+  display: block;
+  font-size: 20px;
+}
+/*.supportContent {
+  font-size: 12px;
+  line-height: normal;
+}*/
+.supportContent {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: bold;
+}
+#countdown::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 220px;
+  height: 220px;
+  background-image: url(../images/tickerBg.html);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.CountdownCont {
+  float: left;
+  width: 49.9%;
+  padding: 9px 0 3px;
+  /* background-color: cadetblue; */
+}
+.counterBox {
+  margin-top: 2px;
+}
+.CountdownCont:nth-child(4), .CountdownCont:nth-child(1) {
+  background-color: rgba(255,255,255,0.71);
+  color: #1062a3;
+}
+.CountdownCont:nth-child(2), .CountdownCont:nth-child(3) {
+  color: #fff;
+  background-color: rgba(16,98,163,0.71);
+}
+.CountdownCont span {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Century Gothic;
+  display: block;
+  margin-bottom: 4px;
+}
+.CountdownCont .text {
+  font-size: 12px;
+  font-family: Century Gothic;
+}
+@media only screen and (max-width: 700px) {
+.ticker .ContentBox strong small {
+  display: inline-block;
+  font-size: 12px;
+}  
+html .new_logo {
+  left: 10px !important;
+  position: absolute;
+  top: 0 !important;
+  width: 110px !important;
+  z-index: 9;
+}
+#countdown::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 100%;
+  height: 40px;
+  background-image: url(../images/tickerBg.html);
+  background-size: 320px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: center -195px;
+}
+.ContentBox {
+  color: #fff;
+  padding: 2px;
+  margin-top: 0;
+}
+.intro2::after {
+  background-size: contain !important;
+}  
+.CountdownCont:nth-child(1), .CountdownCont:nth-child(3) {
+  color: #fff;
+  background-color: rgba(16,98,163,0.71);
+}
+.CountdownCont:nth-child(2), .CountdownCont:nth-child(4) {
+  background-color: rgba(255,255,255,0.71);
+  color: #1062a3;
+}  
+.CountdownCont span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic;
+  display: inline-block;
+  margin-bottom: 4px;
+  vertical-align: middle;
+}
+.CountdownCont .text {
+  font-size: 12px;
+  font-family: Century Gothic;
+  display: inline-block;
+  vertical-align: middle;
+}
+.CountdownCont {
+  float: left;
+  width: 24.9%;
+  padding: 9px 0 3px;
+  /* background-color: cadetblue; */
+}
+.ticker .ContentBox strong {
+  font-size: 12px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.supportContent {
+  font-size: 12px;
+  line-height: normal;
+  display: inline-block;
+}
+.supportContent br {
+  display: none;
+}
+.ticker {
+  /*background-color: #005799;*/
+  position: fixed;
+  top: 68px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+.intro2::after {
+  background-size: contain !important;
+}  
+
+.CountdownCont span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Century Gothic;
+  display: block;
+  margin-bottom: 4px;
+}
+.CountdownCont {
+  float: left;
+  width: 25%;
+  padding: 9px 0 3px;
+  /* background-color: cadetblue; */
+}
+.ContentBox {
+  color: #fff;
+  padding: 4px 5px;
+  margin-top: 0px;
+  display: inline-block;
+  width: 28%;
+  vertical-align: middle;
+  text-align: right;
+}
+.counterBox {
+  margin-top: 2px;
+  width: 71%;
+  display: inline-block;
+  vertical-align: middle;
+}
+}
+
+
+
+/*==== NEW STYLING ====*/
+.new_logo {
+  left: 100px !important;
+  position: absolute;
+  top: -2px !important;
+  width: 170px !important;
+  z-index: 9;
+}
+.image_Box img {
+	transition: 0.2s ease all 0s;	
+	width:100%;
+}
+.sportsSection .item:hover .image_Box img {
+	transform: scale(1.2);
+}
+.image_Box {
+	overflow: hidden;
+}
+.image_Box:hover img {
+	transform: scale(1.2);
+}
+.mobileCarousel {
+	display: none;
+}
+div.lightbox {
+	top: 50% !important;
+	transform:  translateY(-48%);	
+}

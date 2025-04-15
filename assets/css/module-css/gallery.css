@@ -1,0 +1,173 @@
+/* @import url(https://fonts.bunny.net/css?family=amita:700); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+.gallery-style-two {
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.gallery-style-two h2 {
+    font-family: 'Amita', cursive;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery-image {
+    width: 100%; /* Maintain responsiveness */
+    height: 200px; /* Uniform height for all images */
+    object-fit: cover; /* Ensures images are cropped uniformly */
+    border-radius: 8%; /* Rounded corners */
+    border: 5px solid white; /* Border around images */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Initial subtle shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.5); /* Add blur effect to shadow sides */
+}
+
+/* Media Queries for Spacing Adjustments */
+@media (max-width: 768px) {
+    .gallery-style-two h2 {
+        font-size: 2rem;
+    }
+
+    .gallery-image {
+        height: 180px; /* Adjust height for medium screens */
+        border-radius: 6%; /* Adjust border radius */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-style-two h2 {
+        font-size: 1.8rem;
+    }
+
+    .gallery-image {
+        height: 150px; /* Adjust height for small screens */
+        border-radius: 4%; /* Adjust border radius */
+    }
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* .gallery-video {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+} */
+
+.btn {
+    margin: 5px;
+}
+
+.gallery-video {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* object-fit: cover; */
+}
+
+/* Hide controls by default */
+.gallery-video::-webkit-media-controls {
+    display: none !important;
+}
+
+/* Hover Effect */
+.gallery-video:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.custom-btn {
+    background-color: #001C3D; /* Blue color */
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+        justify-content: space-between; /* Space videos evenly */
+        flex-wrap: wrap; /* Wrap for responsiveness */
+        gap: 10px; /* Space between videos */
+        padding: 20px;
+}
+
+.gallery-video {
+    width: 23%; /* Each video takes up 23% of the width for 4 in a row */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 8px; /* Smooth edges */
+     transition: transform 0.4s ease,
+      box-shadow 0.3s ease; 
+}
+
+.gallery-video:hover {
+    transform: scale(1.1); /* Increase size */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Apply shadow */
+}
+
+@media (max-width: 1024px) {
+    .gallery-video {
+        width: 48%; /* 2 videos per row on tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-video {
+        width: 100%; /* 1 video per row on small screens */
+    }
+}
+
+/* Ensure navbar has no extra margin */
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Reduce space between navbar and gallery */
+.gallery-container {
+    margin-top: 5px; /* Minimal space */
+    padding-top: 0;
+}
+
+/* Optional: Remove extra space from the container */
+.container {
+    padding: 10px;
+}
+
+
+
+
+    
+    

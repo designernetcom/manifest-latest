@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>Manifest event</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/nice-select.css" rel="stylesheet">
+<link href="assets/css/elpath.css" rel="stylesheet">
+<link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
+<link href="assets/css/rtl.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/module-css/banner.css" rel="stylesheet">
+<link href="assets/css/module-css/conference.css" rel="stylesheet">
+<link href="assets/css/module-css/about.css" rel="stylesheet">
+<link href="assets/css/module-css/video.css" rel="stylesheet">
+<link href="assets/css/module-css/team.css" rel="stylesheet">
+<link href="assets/css/module-css/mission.css" rel="stylesheet">
+<link href="assets/css/module-css/event.css" rel="stylesheet">
+<link href="assets/css/module-css/gallery.css" rel="stylesheet">
+<link href="assets/css/module-css/testimonial.css" rel="stylesheet">
+<link href="assets/css/module-css/cta.css" rel="stylesheet">
+<link href="assets/css/module-css/clients.css" rel="stylesheet">
+<link href="assets/css/module-css/news.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+<style>
+    .gallery {
+        --s: 400px; /* Increased size from 250px to 400px */
+        
+        display: grid;
+        transform-style: preserve-3d;
+        --_p: perspective(calc(2.5*var(--s))); /* Adjusted perspective for larger size */
+        animation: r 9s infinite cubic-bezier(.5,-0.5,.5,1.5);
+    }
+
+    .gallery img {
+        grid-area: 1/1;
+        width: var(--s);
+        aspect-ratio: 1;
+        object-fit: cover;
+        transform: var(--_t,) translateZ(calc(var(--s)/2));
+    }
+
+    .gallery img:nth-child(2) {--_t: rotateX(-90deg)}
+    .gallery img:nth-child(3) {--_t: rotateY(90deg)}
+    .gallery img:nth-child(4) {--_t: rotateX(180deg) rotate(90deg)}
+    .gallery img:nth-child(5) {--_t: rotateX(90deg)}
+    .gallery img:nth-child(6) {--_t: rotateY(-90deg)}
+
+    @keyframes r {
+        0%,3%   {transform: var(--_p) rotate3d(0, 0, 0, 0deg)}
+        14%,19% {transform: var(--_p) rotate3d(-1, 1, 0, 180deg)}
+        31%,36% {transform: var(--_p) rotate3d(0, -1, 0, 90deg)}
+        47%,52% {transform: var(--_p) rotate3d(1, 0, 0, 90deg)}
+        64%,69% {transform: var(--_p) rotate3d(1, 0, 0, -90deg)}
+        81%,86% {transform: var(--_p) rotate3d(0, 1, 0, 90deg)}
+        97%,100%{transform: var(--_p) rotate3d(0, 0, 0, 0deg)}
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+       
+        place-content: center;
+        background: #556270;
+        animation: b 9s infinite;
+    }
+
+    @keyframes b {
+        0%,3%   {background: #774F38}
+        14%,19% {background: #C5E0DC}
+        31%,36% {background: #036564}
+        45%,55% {background: #B38184}
+        64%,69% {background: #424254}
+        81%,86% {background: #4DBCE9}
+        97%,to  {background: #774F38}
+    }
+
+
+    .event-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 50px auto;
+    max-width: 800px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    backdrop-filter: blur(8px);
+}
+
+.event-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+    animation: slideInDown 1.2s ease forwards;
+}
+
+.event-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+.event-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.event-box {
+    background: #ffffff22;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    animation: pulseIn 1s ease-in-out;
+}
+
+.event-box:hover {
+    transform: translateY(-10px);
+    background: #ffffff44;
+}
+
+@keyframes pulseIn {
+    0% { transform: scale(0.9); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.third-studio-section {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+    animation: thirdStudioIn 1.3s ease-out forwards;
+    animation-delay: 1.2s;
+}
+
+.third-studio-title {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.2s ease forwards;
+}
+
+.third-studio-content {
+    font-size: 18px;
+    line-height: 1.6;
+    animation: fadeInUp 1.4s ease forwards;
+}
+
+@keyframes thirdStudioIn {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.third-studio-slide {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #1c1c1c, #3a3a3a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.slide-content {
+    max-width: 800px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+    animation: thirdStudioIn 1.3s ease-out forwards;
+}
+
+.slide-title {
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.slide-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    animation: fadeInUp 1.3s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.slide-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #ff4d4d;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    animation: fadeInUp 1.6s ease forwards;
+    animation-delay: 0.6s;
+}
+
+.slide-btn:hover {
+    background: #e63737;
+}
+
+/* Animations */
+@keyframes thirdStudioIn {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+    <div class="boxed_wrapper ltr">
+     
+
+
+
+
+        <div class="social-icons">
+            <a href="tel:7994975547" class="social-icon call" target="_blank">
+                <img src="./assets/images/phone-call.png" alt="Call">
+            </a>
+            <a href="https://wa.me/7994975547" class="social-icon whatsapp" target="_blank">
+                <img src="./assets/images/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.facebook.com/share/16UpKKiMRL/" class="social-icon facebook" target="_blank">
+                <img src="./assets/images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/kalarrrii?igsh=MzRlODBiNWFlZA==" class="social-icon instagram"
+                target="_blank">
+                <img src="./assets/images/instagram.png" alt="Instagram">
+            </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Pune</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+        <div class="gallery">
+            <img src="./assets/images/gallarynew/g1.jpg" alt="a hot air balloon">
+            <img src="./assets/images/gallarynew/g19.jpg" alt="a clock">
+            <img src="./assets/images/gallarynew/g5.jpg" alt="a sky photo of an old city">
+            <img src="./assets/images/gallarynew/g15.jpg" alt="a small boat">
+            <img src="./assets/images/gallarynew/g17.jpg" alt="a lonely man">
+            <img src="./assets/images/gallarynew/g11.jpg" alt="a forest">
+        </div>
+
+<div class="third-studio-section">
+    <h2 class="third-studio-title">Third Studio Experience</h2>
+    <p class="third-studio-content">
+        Dive into immersive storytelling with fluid transitions, elegant interactions, and bold creative animations that blend emotion and energy—designed to captivate your audience.
+    </p>
+</div>
+<!-- Slide Section with Third Studio Animation -->
+<section class="third-studio-slide">
+    <div class="slide-content">
+        <h1 class="slide-title">Welcome to Third Studio</h1>
+        <p class="slide-text">Experience visual storytelling like never before. Smooth transitions, vibrant interactions, and cinematic vibes designed to captivate.</p>
+        <a href="#" class="slide-btn">Explore More</a>
+    </div>
+</section>
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+    </div>
+<script>
+    new WOW().init();
+</script>
+
+    <!-- jQuery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
